@@ -1,4 +1,4 @@
- Parallel Computing with MPI
+# Parallel Computing with MPI
 
 ## Introduction
 Message Passing Interface (MPI) is a powerful tool for parallel computing, enabling efficient communication between processes in a distributed system. It helps in handling large-scale computations by breaking tasks into smaller parallel operations.
@@ -13,6 +13,12 @@ This repository contains three assignments showcasing MPI concepts:
 
 Example Files: `MainSample.c`, `SendRecv.c`
 
+#### **Sample Output**
+![Assignment 1 Output](assignment1/outputs/image-1.png)
+![Assignment 1 Output](assignment1/outputs/image.png)
+
+---
+
 ### **Assignment 2: Parallel Computation**
 - **Matrix Operations**: Distributed multiplication and transposition.
 - **Parallel Reduction**: Summation & aggregation across processes.
@@ -20,11 +26,21 @@ Example Files: `MainSample.c`, `SendRecv.c`
 
 Example Files: `matrixMultiplication.c`, `parallelReduction.c`, `pi.c`
 
+![Assignment 1 Output](assignment2/outputs/image-1.png)
+![Assignment 1 Output](assignment2/outputs/image-2.png)
+![Assignment 1 Output](assignment2/outputs/image-3.png)
+![Assignment 1 Output](assignment2/outputs/image-4.png)
+![Assignment 1 Output](assignment2/outputs/image.png)
+
 ### **Assignment 3: Advanced MPI Concepts**
 - **Scatter & Gather**: Distributing & collecting data efficiently.
 - **MPI_Broadcast & Reduce**: Spreading and aggregating values across nodes.
 
 Example Files: `daxpy.c`, `Pi_MPI.c`, `positive_prime.c`
+
+![Assignment 1 Output](assignment3/outputs/image-1.png)
+![Assignment 1 Output](assignment3/outputs/image-2.png)
+![Assignment 1 Output](assignment3/outputs/image.png)
 
 ## Compilation & Execution
 Compile using:
